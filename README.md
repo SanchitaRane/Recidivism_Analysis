@@ -1,7 +1,3 @@
-Sure! Here's a README template for your GitHub repository:
-
----
-
 # Recidivism Analysis and Predictive Modeling
 
 ## Overview
