@@ -1,44 +1,42 @@
-# Recidivism Analysis Project
+# Recidivism Analysis
 
-## Overview
-This project presents a comprehensive analysis of recidivism patterns using the National Institute of Justice's dataset. Through data analysis and visualization, we identify key factors influencing recidivism rates and provide data-driven recommendations for policy improvements.
+## Project Overview
+**Objective:** Analyze recidivism data from the National Institute of Justice to identify patterns and factors influencing re-offense rates, providing actionable insights for rehabilitation program improvement.  
 
-## Project Structure
-- `docs/`: Business and technical documentation
-- `notebooks/`: Jupyter notebooks with analysis
-- `src/`: Source code for analysis and visualization
-- `results/`: Generated figures and tables
+**Scope:** Focus on Exploratory Data Analysis (EDA) and Statistical Analysis using Python and SQL. The project includes data preparation, analysis, visualization, and findings presentation using PowerPoint.
 
-## Key Features
-- Comprehensive demographic analysis
-- Risk factor identification
-- Program effectiveness evaluation
-- Interactive visualizations
-- Policy recommendations
+## Analysis Requirements
+- Identify key factors contributing to recidivism
+- Analyze temporal trends in recidivism
+- Assess correlation between program participation and recidivism
+- Provide data-driven recommendations
 
-## Getting Started
+## Dataset Description
+The analysis will be conducted on recidivism data, including the following key variables:
 
-### Prerequisites
-- Python 3.8+
-- SQL knowledge
-- Statistical Understanding
+### Key Variables:
+- **Demographics:** Gender, Race, Age_at_Release, Residence_PUMA
+- **Criminal History:** Prior arrests, convictions, revocations
+- **Programs:** Attendance, violations, drug tests
+- **Outcomes:** Recidivism within 3 years
 
-## Analysis Pipeline
-1. Data cleaning and preparation
-2. Exploratory data analysis
-3. Statistical modeling
-4. Visualization creation
-5. Results interpretation
+## Technical Implementation
+### Development Stack:
+- **Python Libraries:** Pandas, NumPy, Matplotlib, Seaborn
+- **SQL:** SQLdf, PandasSQL
+- **Tools:** Google Colab, GitHub for version control
 
-## Results
-- Identified key recidivism factors
-- Quantified program effectiveness
-- Created interactive dashboards
+## Analysis Plan
+### 1. Data Preparation:
+- Clean and standardize data
+- Handle missing values
+- Encode categorical variables
 
-## Documentation
-- [Business Requirements Document](docs/BRD.md)
-- [Technical Specification](docs/technical_spec.md)
-- [Analysis Results](docs/results.md)
+### 2. Analysis:
+- Descriptive statistics
+- Correlation analysis
+- Hypothesis testing
+- Visualization creation
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
